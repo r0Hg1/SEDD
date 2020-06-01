@@ -1,2 +1,2 @@
 # SEDD
-Spectral Entropy Drift Detector 
+Spectral Entropy Drift Detector for the MOA framework
