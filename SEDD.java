@@ -1,21 +1,12 @@
-/*
- *    SEDD.java
- *    Copyright (C) 2008 Federal University of Pernambuco, Pernambuco, Brazil
- *    @author Rohgi Toshio (rtmc2@cin.ufpe.br)
+
+/**
+ * Spectral Entropy Drift Detection Method.
  *
- *    This program is free software; you can redistribute it and/or modify
- *    it under the terms of the GNU General Public License as published by
- *    the Free Software Foundation; either version 3 of the License, or
- *    (at your option) any later version.
- *
- *    This program is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *    GNU General Public License for more details.
- *
- *    You should have received a copy of the GNU General Public License
- *    along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * @author Roberto Souto Maior Barros (roberto@cin.ufpe.br)
+ * @author Rohgi Chikushi (rtmc2@cin.ufpe.br)
+ * @version $Revision: 1 $
  */
+
 package moa.classifiers.core.driftdetection;
 
 import moa.core.ObjectRepository;
@@ -23,13 +14,6 @@ import moa.options.FloatOption;
 import moa.options.IntOption;
 import moa.tasks.TaskMonitor;
 
-/**
- * Spectral Entropy Drift Detection Method.
- *
- *
- * @author Rohgi Chikushi (rtmc2@cin.ufpe.br)
- * @version $Revision: 1 $
- */
 public class SEDD extends AbstractChangeDetector {
 
 	private static final long serialVersionUID = 1L;
